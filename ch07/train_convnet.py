@@ -4,7 +4,7 @@ sys.path.append(os.pardir)  # 親ディレクトリのファイルをインポ�
 import numpy as np
 import matplotlib.pyplot as plt
 from dataset.mnist import load_mnist
-from simple_convnet import SimpleConvNet
+from ch07.simple_convnet import SimpleConvNet
 from common.trainer import Trainer
 
 # データの読み込み
@@ -14,7 +14,7 @@ from common.trainer import Trainer
 #x_train, t_train = x_train[:5000], t_train[:5000]
 #x_test, t_test = x_test[:1000], t_test[:1000]
 
-max_epochs = 20
+max_epochs = 5
 
 network = SimpleConvNet(input_dim=(1,28,28), 
                         conv_param = {'filter_num': 30, 'filter_size': 5, 'pad': 0, 'stride': 1},

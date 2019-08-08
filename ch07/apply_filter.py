@@ -3,7 +3,7 @@ import sys, os
 sys.path.append(os.pardir)  # 親ディレクトリのファイルをインポートするための設定
 import numpy as np
 import matplotlib.pyplot as plt
-from simple_convnet import SimpleConvNet
+from ch07.simple_convnet import SimpleConvNet
 from matplotlib.image import imread
 from common.layers import Convolution
 

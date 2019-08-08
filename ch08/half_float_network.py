@@ -3,7 +3,7 @@ import sys, os
 sys.path.append(os.pardir)  # 親ディレクトリのファイルをインポートするための設定
 import numpy as np
 import matplotlib.pyplot as plt
-from deep_convnet import DeepConvNet
+from ch08.deep_convnet import DeepConvNet
 from dataset.mnist import load_mnist
 
 

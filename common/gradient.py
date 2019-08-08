@@ -50,3 +50,4 @@ def numerical_gradient(f, x):
         it.iternext()   
         
     return grad
+
